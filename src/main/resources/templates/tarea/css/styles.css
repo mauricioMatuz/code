@@ -1,0 +1,65 @@
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #7e40f6;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+            to right,
+            rgba(126, 64, 246, 1),
+            rgba(80, 139, 252, 1)
+    );
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+            to right,
+            rgba(126, 64, 246, 1),
+            rgba(80, 139, 252, 1)
+    );
+}
+
+.mask-custom {
+    background: rgba(24, 24, 16, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.custom-btn {
+    /* Button gradient background */
+    background: #7e40f6;
+    background: -webkit-linear-gradient(to right, rgba(126, 64, 246, 1), rgba(80, 139, 252, 1));
+    background: linear-gradient(to right, rgba(126, 64, 246, 1), rgba(80, 139, 252, 1));
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1.5em;
+    box-shadow: 10px 10px 15px rgba(46, 54, 68, 0.1);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.custom-btn:hover {
+    background: #6447c4;
+    background: -webkit-linear-gradient(to right, rgba(100, 71, 196, 1), rgba(67, 117, 235, 1));
+    background: linear-gradient(to right, rgba(100, 71, 196, 1), rgba(67, 117, 235, 1));
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-btn:focus, .custom-btn:active {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgba(100, 71, 196, 0.5);
+}
+
+.gradient-custom-2 {
+    background: #7e40f6;
+    background: -webkit-linear-gradient(to right, rgba(126, 64, 246, 1), rgba(80, 139, 252, 1));
+    background: linear-gradient(to right, rgba(126, 64, 246, 1), rgba(80, 139, 252, 1));
+}
+
+.mask-custom {
+    background: rgba(24, 24, 16, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
